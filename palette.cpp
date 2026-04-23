@@ -1,16 +1,16 @@
 #include "palette.h"
 
 void Palette::init(bool dark) {
-    panel = {102, 85, 74};
-    text_body = {70, 27, 10};
-    text_header = {233, 229, 227};
-    highlight = {255, 0, 0};
-    bg_selection = {232, 152, 80};
-    bg_selection_alt = {232, 201, 173};
-    bg_normal = {255, 255, 255};
-    bg_alternate = {232, 228, 224};
-    icon_dir = {75, 70, 164};
-    icon_file = {100, 100, 100};
+    panel = { 56,  60,  72};
+    text_body = {171, 178, 191};
+    text_header = {255, 255, 255};
+    highlight = {224, 108, 117};
+    bg_selection = { 80,  80,  80};
+    bg_selection_alt = {100, 100, 100};
+    bg_normal = { 30,  34,  40};
+    bg_alternate = { 36,  40,  48};
+    icon_dir = { 97, 175, 239};
+    icon_file = {171, 178, 191};
 
     if (dark) {
         panel.invert();
