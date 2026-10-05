@@ -73,7 +73,7 @@
 #define CMDR_GAMEPAD_RIGHT ControllerButton::RIGHT
 #endif
 #ifndef CMDR_GAMEPAD_SYSTEM
-#define CMDR_GAMEPAD_SYSTEM ControllerButton::X
+#define CMDR_GAMEPAD_SYSTEM ControllerButton::Y
 #endif
 #ifndef CMDR_GAMEPAD_PAGEUP
 #define CMDR_GAMEPAD_PAGEUP ControllerButton::LEFTSHOULDER
@@ -82,13 +82,13 @@
 #define CMDR_GAMEPAD_PAGEDOWN ControllerButton::RIGHTSHOULDER
 #endif
 #ifndef CMDR_GAMEPAD_OPEN
-#define CMDR_GAMEPAD_OPEN ControllerButton::B
+#define CMDR_GAMEPAD_OPEN ControllerButton::A
 #endif
 #ifndef CMDR_GAMEPAD_PARENT
-#define CMDR_GAMEPAD_PARENT ControllerButton::A
+#define CMDR_GAMEPAD_PARENT ControllerButton::B
 #endif
 #ifndef CMDR_GAMEPAD_OPERATION
-#define CMDR_GAMEPAD_OPERATION ControllerButton::Y
+#define CMDR_GAMEPAD_OPERATION ControllerButton::X
 #endif
 #ifndef CMDR_GAMEPAD_SELECT
 #define CMDR_GAMEPAD_SELECT ControllerButton::SELECT
